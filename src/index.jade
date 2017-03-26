@@ -1,0 +1,18 @@
+doctype html
+html(lang="en", "ng-strict-di", ng-app="app")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+        title #{title}
+        style
+            | .ng-cloak {
+            |    display: none !important;
+            | }
+        // inject:css
+        // endinject
+    body.ng-cloak(ng-controller="mainCtrl" breakpoint="{0:'breakpointMobile', 768:'breakpointTablet', 992:'breakpointDesktop', 1200:'breakpointDesktopLarge'}")
+        #app
+          #main.container-fluid.ui-view("data-ng-view", ng-controller="mainCtrl")
+    // inject:js
+    // endinject

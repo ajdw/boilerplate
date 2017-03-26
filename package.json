@@ -1,0 +1,38 @@
+{
+  "name": "yourappname",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "1.5.9",
+    "angular-animate": "1.5.9",
+    "angular-route": "1.5.9",
+    "body-parser": "^1.4.3",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "event-stream": "^3.3.4",
+    "express": "^4.13.4",
+    "faye-websocket": "^0.11.1",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.3.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-uglify": "^2.1.0",
+    "gulp-webserver": "^0.9.1",
+    "main-bower-files": "^2.13.1",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1"
+  }
+}

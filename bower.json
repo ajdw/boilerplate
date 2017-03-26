@@ -1,0 +1,17 @@
+{
+  "name": "yourappname",
+  "authors": [
+    "githubname <youremailforgithub>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

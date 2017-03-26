@@ -1,0 +1,6 @@
+heading(user="user")
+.row
+    #items.col-sm-4.text-center(ng-repeat="a in albums")
+        p.bg-success {{ a.title | limitTo: 14 }}
+        p {{ a.userId }}
+end

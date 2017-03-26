@@ -1,0 +1,8 @@
+heading(user="user")
+.row
+    #items.col-sm-4.text-center(ng-repeat="p in posts")
+        p.bg-danger {{p.title | limitTo: 14}}
+        p {{ p.userId }}
+        p {{ p.body | limitTo: 100 }}
+
+end
