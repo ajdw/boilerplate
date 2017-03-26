@@ -9,8 +9,16 @@ app.
                 templateUrl: 'html/something.html',
                 controller: 'mainCtrl'
             }).
+            when('/todos', {
+                templateUrl: 'html/todos.html',
+                controller: 'todoCtrl' 
+            }).
+            when('/model', {
+                templateUrl: 'html/model.html',
+                controller: 'modelCtrl'
+            }).
             when('/:id', {
-                templateUrl : 'html/error.html',
+                templateUrl: 'html/error.html',
                 controller: 'navCtrl'
             }).
             otherwise({

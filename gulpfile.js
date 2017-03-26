@@ -54,7 +54,7 @@ gulp.task('build-less', function(){
 
 gulp.task('bootstrap', function(){
 	return gulp.src('bower_components/bootstrap/dist/css/bootstrap.min.css')
-		.pipe(gulp.dest('./public/css'))
+		.pipe(gulp.dest('./public/css/css'))
 });
 
 gulp.task('build-js', function(){
@@ -81,7 +81,7 @@ gulp.task('build-js', function(){
 gulp.task('build-html', function() {
 
  var LOCALS = {};
-  
+   
   gulp.src('src/index.jade')
   	.pipe(jade({
   		locals: LOCALS

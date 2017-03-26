@@ -19,6 +19,15 @@ app.
                     }
                 });
                 return d;
+            },
+            todos: function(value){
+                var d = $http.get(value);
+                d.then(function(res){
+                    return {
+                        data: res.data
+                    }
+                })
+                return d;
             }
         }
 

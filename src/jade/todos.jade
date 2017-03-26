@@ -1,0 +1,7 @@
+heading(user="user")
+.row
+    #todos.col-sm-4.text-center(ng-repeat="t in todos")
+        p(ng-class="t.completed ? 'bg-success':'bg-danger'") {{t.title | limitTo: 14}}
+        p {{ t.userId }}
+        button.btn.btn-success(ng-click="t.completed = !t.completed" ng-disabled="!t.completed") Complete
+end
